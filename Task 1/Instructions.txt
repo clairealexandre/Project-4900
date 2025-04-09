@@ -1,5 +1,22 @@
 1. Get a list of the top twenty words (or more if you need to) using print_top_related_word
-2. Go through the list from top to bottom, stopping at the first word that makes sense to include in this prompt about birds:  	"this (label) sounds like type of {related_word}"
-but which is conceptually unrelated to birdse.g., Here are the top words related to 'bird' in salmonn:heard: 4017 (0.218 or 21.8%) - doesn’t fit into promptcalls: 3672 (0.200 or 20.0%) - birds do sound like a type of call(s), too related sounds: 3473 (0.189 or 18.9%)- birds do sound like a type of sound(s), too relatedbackground: 3446 (0.187 or 18.7%) - birds could sound like a type of background, semi-relatedwind: 2785 (0.151 or 15.1%) - avoid common environment words like wind and rain birds: 2618 (0.142 or 14.2%) - same wordchirping: 2510 (0.136 or 13.6%)- birds do sound like a type of chirping, too related	making: 2415 (0.131 or 13.1%)- doesn’t fit into promptnoise: 1975 (0.107 or 10.7%)- birds do could like type of like a type of noise, semi-relatedsinging: 1918 (0.104 or 10.4%)- birds do sound like a type of singing, too relatedone: 1495 (0.081 or 8.1%) - doesn’t fit into prompt
-wind: 2785 (0.1512 or 15.1%) - a good choiceNote: If a completely unrelated word like “wind” isn’t available in the top 20, choose the first semi-related word (e.g., “background”) but highlight the cell on the Google Sheet
+2. Go through the list from top to bottom,
+ stopping at the first word that makes sense to include in this prompt about birds:
+  	"this (label) sounds like type of {related_word}"
+    but which is conceptually unrelated to birdse.g.,
+     Here are the top words related to 'bird' in salmonn:
+     heard: 4017 (0.218 or 21.8%) - doesn’t fit into prompt
+     calls: 3672 (0.200 or 20.0%) - birds do sound like a type of call(s), too related
+     sounds: 3473 (0.189 or 18.9%)- birds do sound like a type of sound(s), too related
+     background: 3446 (0.187 or 18.7%) - birds could sound like a type of background, semi-related
+     wind: 2785 (0.151 or 15.1%) - avoid common environment words like wind and rain
+     birds: 2618 (0.142 or 14.2%) - same word
+     chirping: 2510 (0.136 or 13.6%)- birds do sound like a type of chirping, too related	
+     making: 2415 (0.131 or 13.1%)- doesn’t fit into prompt
+     noise: 1975 (0.107 or 10.7%)- birds do could like type of like a type of noise, semi-related
+     singing: 1918 (0.104 or 10.4%)- birds do sound like a type of singing, too relate
+     done: 1495 (0.081 or 8.1%) - doesn’t fit into prompt
+man: 1383 (0.075 or 7.5%) - a good choiceNote: If a completely unrelated word like “man” isn’t available in the top 20,
+ choose the first semi-related word (e.g., “background”) but highlight the cell on the Google Sheet
 1. Put the word and the proportional frequency of its occurrence in the Google Doc (e.g., “wind” and 0.151)
+2. Try to avoid using the same too many times (like “man”). 
+If you have been using a word a lot and check if there is a good candidate close in the list, use that. 
